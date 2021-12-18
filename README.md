@@ -13,8 +13,10 @@
 - Clone without .git
 
 ```bash
-npm degit https://github.com/Prajwalprakash3722/Basic-express-backend.git
+npx degit https://github.com/Prajwalprakash3722/Basic-express-backend.git your_project_name
 ```
+
+- Change the Project name to whcih ever you like
 
 - Install Dependencies
 
@@ -42,6 +44,8 @@ Connect to the Database using the following changes in `server.js` file:
 
 ```env
 MONGO_URI=mongodb:mongodb uri goes here
+JWT_SECRET=your JWT secret will goes here
+
 ```
 
 Project Structure:
