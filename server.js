@@ -26,4 +26,8 @@ const startServer = async () => {
   );
 };
 
+app.get('/',(req,res)=>{
+   res.send("response");
+});
+
 startServer();
